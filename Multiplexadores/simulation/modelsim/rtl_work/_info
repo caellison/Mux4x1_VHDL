@@ -1,0 +1,40 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\caellison10\Documents\Micro2024\simulation\modelsim
+Emux1
+Z1 w1732916936
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dC:\Users\caellison10\Documents\Micro2024\simulation\modelsim
+Z5 8C:/Users/caellison10/Documents/Micro2024/mux1.vhd
+Z6 FC:/Users/caellison10/Documents/Micro2024/mux1.vhd
+l0
+L12
+Vcf>DPnLKomAHa1:8@VZE_3
+!s100 Q1Dm^F@2VzZ@zb^GKE>g33
+Z7 OV;C;10.1d;51
+31
+!i10b 1
+Z8 !s108 1733154383.393000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/caellison10/Documents/Micro2024/mux1.vhd|
+Z10 !s107 C:/Users/caellison10/Documents/Micro2024/mux1.vhd|
+Z11 o-93 -work work -O0
+Z12 tExplicit 1
+Ahardware
+R2
+R3
+DEx4 work 4 mux1 0 22 cf>DPnLKomAHa1:8@VZE_3
+l28
+L27
+V>IXJVUIXXBmKdS>2bCR@S3
+!s100 <6X=_]fXSgfWL932jOHQi1
+R7
+31
+!i10b 1
+R8
+R9
+R10
+R11
+R12
