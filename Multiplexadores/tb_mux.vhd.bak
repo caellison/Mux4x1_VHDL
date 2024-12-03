@@ -8,7 +8,7 @@ use ieee.std_logic_1164.all;
 entity tb_mux is
 end tb_mux;
 
-architecture behavior of tb_mux is
+architecture hardware of tb_mux is
     -- Componentes a serem testados
     component mux1
         port(
@@ -98,4 +98,4 @@ begin
         wait;
     end process;
 
-end behavior;
+end hardware;
