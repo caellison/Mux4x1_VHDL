@@ -1,1 +1,1 @@
-Multiplexador 4x1 implementado em VHDL, incluindo um testbench completo para simulações e validações.
+4x1 Multiplexer implemented in VHDL, including a complete testbench for simulations and validations.
