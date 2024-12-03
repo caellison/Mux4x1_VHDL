@@ -1,0 +1,54 @@
+-- Autor: Caellison Bezerra Morais
+-- Data: 02/12/2024
+-- Testbench para o multiplexador mux1
+
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all; -- Biblioteca para usar to_unsigned
+
+entity tb_mux1 is
+end tb_mux1;
+
+architecture hardware of tb_mux1 is
+    -- Componente a ser testado
+    component mux1
+        port(
+            I0, I1, I2, I3 : in std_logic;
+            s              : in std_logic_vector(1 downto 0);
+            y              : out std_logic
+        );
+    end component;
+
+    -- Sinais para simulação
+    signal I0, I1, I2, I3 : std_logic := '0';
+    signal s              : std_logic_vector(1 downto 0) := "00";
+    signal y              : std_logic;
+
+begin
+    -- Instanciação do multiplexador
+    uut1: mux1 port map(I0, I1, I2, I3, s, y);
+
+    -- Processo de geração de estímulos
+    process
+    begin
+        -- Testando todas as combinações de seleção
+        for i in 0 to 3 loop
+            -- Convertendo para sinais de seleção
+            s <= std_logic_vector(to_unsigned(i, 2)); -- Conversão ajustada
+
+            -- Aplicando diferentes valores às entradas
+            I0 <= '0'; I1 <= '0'; I2 <= '0'; I3 <= '0'; wait for 10 ns;
+            I0 <= '1'; wait for 10 ns;
+            I1 <= '1'; wait for 10 ns;
+            I2 <= '1'; wait for 10 ns;
+            I3 <= '1'; wait for 10 ns;
+
+            -- Resetando entradas
+            I0 <= '0'; I1 <= '0'; I2 <= '0'; I3 <= '0'; wait for 10 ns;
+        end loop;
+
+        -- Finaliza a simulação
+        wait;
+    end process;
+
+end hardware;
