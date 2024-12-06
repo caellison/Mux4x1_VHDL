@@ -1,0 +1,111 @@
+$date
+  Fri Dec  6 14:47:54 2024
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module numeric_std $end
+$upscope $end
+$scope module testemux $end
+$var reg 1 ! i0 $end
+$var reg 1 " i1 $end
+$var reg 1 # i2 $end
+$var reg 1 $ i3 $end
+$var reg 2 % s[1:0] $end
+$var reg 1 & y $end
+$scope module uut1 $end
+$var reg 1 ' i0 $end
+$var reg 1 ( i1 $end
+$var reg 1 ) i2 $end
+$var reg 1 * i3 $end
+$var reg 2 + s[1:0] $end
+$var reg 1 , y $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+0!
+1"
+0#
+1$
+b00 %
+0&
+0'
+1(
+0)
+1*
+b00 +
+0,
+#10000000
+#20000000
+1!
+0"
+1#
+1&
+1'
+0(
+1)
+1,
+#30000000
+0!
+1"
+0#
+b01 %
+0'
+1(
+0)
+b01 +
+#40000000
+#50000000
+1!
+0"
+1#
+0&
+1'
+0(
+1)
+0,
+#60000000
+0!
+1"
+0#
+b10 %
+0'
+1(
+0)
+b10 +
+#70000000
+#80000000
+1!
+0"
+1#
+1&
+1'
+0(
+1)
+1,
+#90000000
+0!
+1"
+0#
+b11 %
+0'
+1(
+0)
+b11 +
+#100000000
+#110000000
+1!
+0"
+1#
+1'
+0(
+1)
+#120000000

@@ -1,0 +1,7 @@
+v 4
+file . "testemux.vhdl" "f3caa32940802ced8605925463f52c9e5fd2e8bf" "20241206174647.731":
+  entity testemux at 7( 136) + 3 on 13;
+  architecture arch of testemux at 16( 285) + 1 on 14;
+file . "mux1.vhdl" "ab8c646a08fc12472010fe6d33fd2d07411ae96b" "20241206174633.228":
+  entity mux1 at 7( 117) + 6 on 11;
+  architecture arch of mux1 at 28( 652) + 5 on 12;
