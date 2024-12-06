@@ -23,10 +23,10 @@
 
 ### Forma de Onda 
 
+![Forma de Onda](Multiplexadores_TesteBench/imagens/waveform_2.png)
+
+
 ![Forma de Onda](Multiplexadores_TesteBench/imagens/waveform_1.png)
-
-
-![Forma de Onda](imagens/waveform_2.png)
 
 ---
 
