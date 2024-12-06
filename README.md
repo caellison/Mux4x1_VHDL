@@ -18,3 +18,16 @@
 3. **Visualizar os Resultados no GTKWave**: Após rodar a simulação, abra os arquivos de onda gerados (os arquivos `.vcd` ou `.ghw`) no GTKWave para visualizar as formas de onda. As imagens na pasta `/imagens` representam os gráficos gerados durante a simulação.
 
 4. **Análise**: Analise os gráficos para verificar o comportamento dos multiplexadores em diferentes cenários de entrada.
+
+5. Aqui estão as formas de onda geradas no GTKWave durante a simulação do multiplexador 4x1:
+
+### Forma de Onda 
+
+![Forma de Onda](imagens/waveform_1.png)
+
+
+![Forma de Onda](imagens/waveform_2.png)
+
+---
+
+Essas duas imagens representam as formas de onda simuladas no GTKWave para o testbench `testemux.vhdl`. 
