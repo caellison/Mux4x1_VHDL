@@ -1,6 +1,3 @@
-4x1 Multiplexer implemented in VHDL, including a complete testbench for simulations and validations.
-
-
 ## Descrição dos Arquivos e Pastas
 
 - **/multiplexadores**: Contém os arquivos VHDL para os multiplexadores.
